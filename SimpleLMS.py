@@ -1,5 +1,4 @@
 books = ['Things fall apart', 'When love visits', 'The secret lives of Baba segi wives', 'Ogadinma', 'Welcome to lagos', 'Golibe', 'How to grow wings']
- 
 
 def view_books():
     if books:
@@ -34,7 +33,7 @@ def return_book():
         books.append(book_name)
         print(f'Thank you! You have returned "{book_name}"')
 
-def main():
+def myLibrary():
     while True:
         print("\nWhat do you want to do at my Library?\n")
         print("1. View the books I have available")
@@ -60,5 +59,4 @@ def main():
         else:
             print('Not Applicable! Please try again')
 
-main()
- 
+myLibrary()
